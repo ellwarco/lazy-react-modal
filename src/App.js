@@ -60,11 +60,15 @@ class App extends Component {
               <div><img src="http://j4p.us/272W410b1N2C/Screen%20Shot%202017-06-25%20at%208.24.24%20PM.png" alt="Network tab with multiple requests" /></div>
               <label>
                 Lazy load <code>react-aria-modal</code> and <code>react-mapbox-gl</code>.
-                <div style={{marginTop: '1rem'}}>
+                <div style={{
+                  marginTop: '1rem',
+                  background: 'lightblue',
+                  padding: '1rem'
+                }}>
                   <button onClick={(event) => this.openModalWindow()}>Go</button>
                 </div>
               </label>
-              <p><a href="https://github.com/jpdevries/lazy-react-modal" target="_github">View Source</a></p>
+              <p><a href="https://github.com/jpdevries/lazy-react-modal/blob/master/src/App.js#L14" target="_github">View Source</a></p>
             </div>
           </div>
         </div>
