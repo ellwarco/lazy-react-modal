@@ -64,7 +64,7 @@ class App extends Component {
                   <button onClick={(event) => this.openModalWindow()}>Go</button>
                 </div>
               </label>
-
+              <p><a href="https://github.com/jpdevries/lazy-react-modal" target="_github">View Source</a></p>
             </div>
           </div>
         </div>
